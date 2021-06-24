@@ -1,0 +1,75 @@
+.myprofile{
+    height: 100vh;
+    width: 100%;
+    color:white;
+}
+
+.myprofile_body{
+    display: flex;
+    max-width: 700px;
+    flex-direction: column;
+    margin-left:  auto;
+    margin-right: auto;
+    width: 40%;
+    padding: 10%;
+}
+
+@media only screen and (max-width: 400px) {
+    .myprofile_body{
+        display: flex;
+        max-width: 700px;
+        flex-direction: column;
+        margin-left:  1%;
+        margin-right: auto;
+        width: 40%;
+        padding-top: 30%;
+    }
+    .myprofile_body h1{
+        font-size: 40px;
+    }
+  }
+
+.myprofile_info{
+    display: flex;
+    margin-top: 20px;
+}
+
+.myprofile_info img{
+    height:100px;
+}
+
+.myprofile_body h1{
+    font-size: 60px;
+    font-weight: bold;
+    border-bottom: 1px solid rgb(73, 69, 69);
+}
+
+.myprofile_details{
+    margin-left: 4%;
+    flex:1;
+}
+
+.myprofile_details h2{
+    background-color: grey;
+    font-size: 17px;
+    padding: 10px;
+}
+
+.myprofile_signout{
+    margin-top: 5%;
+    width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    background-color: red;
+}
+
+.plans h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgb(73, 69, 69);
+}
