@@ -1,8 +1,7 @@
 # This is The Netflix Clone ->
 
 ## To run the web app use either of the 2 options ->
- ### 1. [https://netflix-clone-sashwat.herokuapp.com/](https://netflix-clone-sashwat.herokuapp.com/)
- ### 2. create react-redux app and install the dependencies via npm and run the react app on localhost:3000 and the payment backend part on localhost:8000 
+ ### 1. create react-redux app and install the dependencies via npm and run the react app on localhost:3000 and the payment backend part on localhost:8000 
 <br/>
 
 ## Home Page ->
